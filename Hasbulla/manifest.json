@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "hasbulla",
+  "version": "1.0",
+
+  "description": "do magic.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["hasbulla.js"]
+    }
+  ]
+
+}
